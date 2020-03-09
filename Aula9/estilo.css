@@ -1,0 +1,90 @@
+body{
+    font-family: 'Arial';
+}
+
+input{
+    border-color: blue;
+}
+
+input:hover{
+    border-color: red;
+}
+
+input:focus{
+    width: 400px;
+}
+
+p:hover{
+    color: red;
+}
+
+p:nth-child(odd){
+    background-color: gray;
+}
+
+header{
+    border: 3px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+main{
+    border: 3px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    border: 3px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+section{
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+}
+
+article{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: orange;
+}
+
+span{
+    background-color: purple;
+}
+
+div.caixa1{
+    background-color: orange;
+    border: 5px solid black;
+}
+
+div.caixa2{
+    background-color: blue;
+    border: 5px dotted black ;
+}
+
+div.caixa3{
+    background-color: crimson;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+article{
+    float: left;
+    width: 30%;
+}
+
+section.noticias{
+    overflow: hidden;
+    color: dod;
+}
